@@ -25,6 +25,6 @@ per addressee.
 `{ $dateToString: { format: '%Y-%m-%d', date: '$headers.Date' } }`. Create a `to` field with the
 value from `$headers.To`
 
-1. Group by the `$to` field and count ith `$sum`
+1. Group by the `$to` field and count with `$sum`
 
 1. sort by the count field.
